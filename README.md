@@ -1,5 +1,5 @@
 # 米粥API (MZAPI)
-
+[![PyPI version](https://badge.fury.io/py/XMZAPI.svg)](https://pypi.org/project/XMZAPI/)
 ## 简介
 
 `MZAPI`MZAPI 是一个基于Python的SDK，旨在帮助开发者快速构建和接入米粥API服务。通过这个SDK，用户可以轻松地完成各种API调用
@@ -30,7 +30,7 @@ pip install MZAPI
 如果你在使用`MZAPI`时遇到任何问题，或者有任何建议和反馈，欢迎通过以下方式联系作者：
 
 - **姓名**：祁筱欣
-- **电子邮件**：mzapi@x.mizhoubaobei.top
+- **开发者邮件**：[mzapi@x.mizhoubaobei.top](mailto:mzapi@x.mizhoubaobei.top)
 - **项目网址**：[https://github.com/xiaomizhoubaobei/XMZAPI](https://github.com/xiaomizhoubaobei/XMZAPI)
 ## 开源许可证
 
