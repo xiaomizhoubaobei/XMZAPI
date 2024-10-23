@@ -11,7 +11,6 @@ from MZAPI.HWNLP import MTService
 def mt():
     mt_service = MTService()
     # 机器翻译服务示例
-    print("机器翻译服务示例:")
     # 文档翻译示例：将指定URL的文档从中文翻译成英文
     print(mt_service.file_translation("https://example.com/document.docx", "docx", "zh", "en"))
 ```
@@ -105,7 +104,6 @@ from MZAPI.HWNLP import MTService
 mt_service = MTService()
 def mt():
     mt_service = MTService()
-    print("机器翻译服务示例:")
     print(mt_service.file_translation("https://example.com/document.docx", "docx", "zh", "en"))
 
 if __name__ == "__main__":
