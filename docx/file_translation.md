@@ -1,7 +1,3 @@
-好的，下面是一个更详细的指南，大约2000字，包括参数解释和一些额外的提示，以帮助初学者更好地理解和使用机器翻译服务。
-
----
-
 # 机器翻译服务简易指南：详细参数解释
 
 ## 🌟 欢迎来到机器翻译服务！
@@ -67,37 +63,3 @@ A: 取决于文档大小，小文档通常几分钟内完成。
 
 **Q: 翻译结果不满意怎么办？**
 A: 检查源语言和目标语言设置，或联系我们提供反馈。
-
-## 🌟 进阶使用
-
-如果你已经熟悉了基本的翻译操作，可以尝试一些进阶的功能，比如批量翻译、自定义翻译设置等。
-
-### 批量翻译
-
-如果你有多个文档需要翻译，可以使用批量翻译功能。这可以大大节省你的时间。以下是批量翻译的示例代码：
-
-```python
-from MZAPI.HWNLP import MTService
-
-def batch_translate_documents():
-    mt_service = MTService()
-    documents = [
-        {"url": "https://example.com/doc1.docx", "type": "docx", "lang_from": "zh", "lang_to": "en"},
-        {"url": "https://example.com/doc2.pdf", "type": "pdf", "lang_from": "en", "lang_to": "zh"}
-    ]
-    results = mt_service.batch_file_translation(documents)
-    print(results)
-
-if __name__ == "__main__":
-    batch_translate_documents()
-```
-
-这段代码会同时翻译多个文档，并打印出每个文档的翻译结果。
-
-
-
-## 🌟 结语
-
-恭喜你，现在你已经了解了如何使用机器翻译服务！如果你有任何疑问，或需要更多帮助，随时联系我们。一起跨越语言障碍，探索更广阔的世界吧！🌍🚀
-
----
