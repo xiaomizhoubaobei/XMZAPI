@@ -50,4 +50,3 @@ pip install MZAPI
 - **项目网址**：[https://github.com/xiaomizhoubaobei/XMZAPI](https://github.com/xiaomizhoubaobei/XMZAPI)
 
 我们希望这些信息能帮助你快速上手 `MZAPI`。感谢你的使用和支持！
-```
