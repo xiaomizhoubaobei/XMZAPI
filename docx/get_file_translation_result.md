@@ -20,7 +20,7 @@
 我们将通过一段简单的代码来获取翻译结果。这段代码会调用翻译服务的API，获取你的文档翻译结果。
 
 ```python
-from MZAPI.HWNLP import MTService
+from XMZAPI.HWNLP import MTService
 
 def get_translation_result(job_id):
     mt_service = MTService()
