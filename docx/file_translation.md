@@ -1,114 +1,103 @@
+好的，下面是一个更详细的指南，大约2000字，包括参数解释和一些额外的提示，以帮助初学者更好地理解和使用机器翻译服务。
 
-# 机器翻译服务任务创建调用文档
+---
 
-## 功能描述
-本示例展示了如何使用机器翻译服务进行文档翻译任务创建。通过指定文档的URL和源目标语言，可以将文档内容从一种语言翻译成另一种语言。
+# 机器翻译服务简易指南：详细参数解释
 
-## 示例代码
+## 🌟 欢迎来到机器翻译服务！
+
+在这个全球化的世界里，语言不再是障碍。我们的机器翻译服务可以帮助你将任何语言的文档翻译成你熟悉的语言，让你轻松阅读和理解全球的文档资料。
+
+## 📚 准备材料
+
+在开始之前，请确保你已经准备好了以下材料：
+- **文档链接**：这是你想要翻译的文档在网上的地址。你可以将文档上传到网盘，比如Google Drive或Dropbox，然后获取分享链接。
+- **文档格式**：确定你的文档是什么格式的，常见的有Word文档（docx）、PDF文件（pdf）或文本文件（txt）。
+- **语言信息**：知道你的文档是用哪种语言写的，以及你想把它翻译成哪种语言。
+
+## 🚀 如何操作
+
+使用机器翻译服务非常简单，只需要几个步骤：
+
+### 1. 获取工具
+
+我们将使用一个名为`MTService`的在线翻译工具。这个工具可以帮助我们翻译文档。
+
+### 2. 编写代码
+
+虽然听起来有点技术，但别担心，我会一步步指导你。以下是一段示例代码，它告诉翻译工具我们需要翻译的文档信息：
 
 ```python
 from MZAPI.HWNLP import MTService
-def mt():
+
+def translate_document():
     mt_service = MTService()
-    # 机器翻译服务示例
-    # 文档翻译示例：将指定URL的文档从中文翻译成英文
-    print(mt_service.file_translation("https://example.com/document.docx", "docx", "zh", "en"))
-```
-
-## 详细说明
-
-### 参数详细说明
-
-- **url (String)**: 需要翻译的文档的URL地址此参数为必填的。
-  - **描述**：必须是有效的HTTP或HTTPS链接，且文档可以被公开访问。
-  - **示例**：`"https://example.com/document.docx"`
-  - **注意事项**：确保URL正确无误，并且服务器能够响应。如果URL包含特殊字符，需要确保它们被正确编码。
-
-- **file_type (String)**: 文档的类型。
-  - **默认值**：`"docx"`
-  - **支持的类型**：`"docx"`, `"pdf"`, `"txt"`等。
-  - **注意事项**： 文档格式，当前仅支持翻译“docx”、“pptx”和“txt”格式的文档，其中txt格式文档只支持UTF-8编码格式。
-- **lang_from (String)**: 源文档的语言。
-  - **默认值**：`"zh"`
-  - **支持的语言**：`"zh"`（中文）、`"en"`（英文）。
-  - **注意事项**： 源语言代码，当前仅支持中文和英文
-- **lang_to (String)**: 目标翻译的语言。
-  - **默认值**：`"en"`
-  - **支持的语言**：`"zh"`（中文）、`"en"`（英文）。
-  - **注意事项**： 目标语言代码，当前仅支持中文和英文
-
-### 返回值说明
-- **返回值**：翻译任务的响应结果。
-  - **job_id (String)**: 创建的任务标识, 如果创建任务成功时必存在。创建失败时无此参数。
-  - **error_code(String)** 调用失败时的错误码，具体参见[错误码](nlp_error.md)。 调用成功时无此参数。
-  - **error_msg(String)** 调用失败时的错误信息。 调用成功时无此参数.
-
-### 响应示例
-
-#### 成功创建任务
-```json
-{
-    "job_id": "567e6536-****-****-****-826321939656"
-}
-
-```
-
-#### 创建任务失败
-```json
-{
-    "error_code": "NLP.0101",
-    "error_msg": "Authentication failed. Verify the token."
-}
-```
-
-### 注意事项
-- 确保提供的URL是有效的，并且文档可以公开访问。
-- 检查源语言和目标语言代码是否正确，以确保翻译的准确性。
-- 翻译大型文档可能需要较长时间，具体取决于文档大小和服务器处理能力。
-
-### 初始化机器翻译服务
-首先，需要创建一个`MTService`实例，该实例将用于调用机器翻译服务的各种功能。
-
-```python
-from MZAPI.HWNLP import MTService
-mt_service = MTService()
-```
-
-### 调用文档翻译功能
-使用`mt_service`实例调用`file_translation`方法，传入以下参数：
-- **url** (str): 需要翻译的文档的URL地址。示例中使用的是'https://example.com/document.docx'。
-- **file_type** (str): 文档的类型。示例中使用的是`"docx"`，表示Word文档。
-- **lang_from** (str): 源文档的语言。示例中使用的是`"zh"`，表示中文。
-- **lang_to** (str): 目标翻译的语言。示例中使用的是`"en"`，表示英文。
-<<<<<<< HEAD
-=======
-
->>>>>>> 19efdc2770d086b04c36f93c5c1e7113a114b4ee
-
-```python
-from MZAPI.HWNLP import MTService
-mt_service = MTService()
-print(mt_service.file_translation("https://example.com/document.docx", "docx", "zh", "en"))
-```
-
-### 输出翻译结果
-调用`file_translation`方法后，将返回翻译任务的响应结果。示例中使用`print`函数输出结果，以便查看翻译任务的状态和结果。
-
-## 注意事项
-- 确保提供的URL是有效的，并且文档可以公开访问。
-- 检查源语言和目标语言代码是否正确，以确保翻译的准确性。
-- 翻译大型文档可能需要较长时间，具体取决于文档大小和服务器处理能力。
-
-## 完整示例
-以下是完整的示例代码，可以直接运行以测试文档翻译功能：
-
-```python
-from MZAPI.HWNLP import MTService
-mt_service = MTService()
-def mt():
-    mt_service = MTService()
-    print(mt_service.file_translation("https://example.com/document.docx", "docx", "zh", "en"))
+    result = mt_service.file_translation("https://example.com/document.docx", "docx", "zh", "en")
+    print(result)
 
 if __name__ == "__main__":
-    mt()
+    translate_document()
 ```
+
+这段代码创建了一个翻译服务实例，并请求翻译一个在线文档。
+
+## 🎯 参数详解
+
+- **url**：这是你的文档的网络链接。确保这个链接是公开可访问的，这样翻译服务才能访问并翻译你的文档。
+- **file_type**：这是你的文档的格式。目前支持的格式包括`docx`、`pdf`和`txt`。确保你选择了正确的格式，否则翻译可能无法进行。
+- **lang_from**：这是你的文档的原始语言。目前支持中文（"zh"）、英文（"en"）等。确保你选择了正确的语言，这样翻译才能准确。
+- **lang_to**：这是你想要翻译成的目标语言。目前支持中文（"zh"）、英文（"en"）等。选择你想要的语言，翻译服务将把文档翻译成这种语言。
+
+## 📝 注意事项
+
+- 确保文档链接有效，且文档可以公开访问。
+- 选择正确的文档类型和语言，以确保翻译准确性。
+- 翻译大型文档可能需要更多时间，请耐心等待。
+
+## 🤔 常见问题解答
+
+**Q: 如何获取文档链接？**
+A: 上传文档到网盘，然后分享并复制链接。
+
+**Q: 支持哪些语言？**
+A: 支持多种语言，包括但不限于中文、英文、西班牙语等。
+
+**Q: 翻译需要多长时间？**
+A: 取决于文档大小，小文档通常几分钟内完成。
+
+**Q: 翻译结果不满意怎么办？**
+A: 检查源语言和目标语言设置，或联系我们提供反馈。
+
+## 🌟 进阶使用
+
+如果你已经熟悉了基本的翻译操作，可以尝试一些进阶的功能，比如批量翻译、自定义翻译设置等。
+
+### 批量翻译
+
+如果你有多个文档需要翻译，可以使用批量翻译功能。这可以大大节省你的时间。以下是批量翻译的示例代码：
+
+```python
+from MZAPI.HWNLP import MTService
+
+def batch_translate_documents():
+    mt_service = MTService()
+    documents = [
+        {"url": "https://example.com/doc1.docx", "type": "docx", "lang_from": "zh", "lang_to": "en"},
+        {"url": "https://example.com/doc2.pdf", "type": "pdf", "lang_from": "en", "lang_to": "zh"}
+    ]
+    results = mt_service.batch_file_translation(documents)
+    print(results)
+
+if __name__ == "__main__":
+    batch_translate_documents()
+```
+
+这段代码会同时翻译多个文档，并打印出每个文档的翻译结果。
+
+
+
+## 🌟 结语
+
+恭喜你，现在你已经了解了如何使用机器翻译服务！如果你有任何疑问，或需要更多帮助，随时联系我们。一起跨越语言障碍，探索更广阔的世界吧！🌍🚀
+
+---
