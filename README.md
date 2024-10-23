@@ -13,10 +13,10 @@ MZAPI是一个基于Python的SDK，旨在帮助开发者快速构建和接入米
 - `huaweicloudsdknlp`：华为云自然语言处理SDK。
 - `ryptography`：用于加密和解密数据的Python库。
 
-本库已经发布到了pypi可直接安装MZAPI，安装过程中会自动安装本库所需要的依赖：
+本库已经发布到了pypi可直接安装XMZAPI，安装过程中会自动安装本库所需要的依赖：
 
 ```bash
-pip install MZAPI
+pip install XMZAPI
 ```
 
 ## 使用方法
