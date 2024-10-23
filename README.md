@@ -16,7 +16,7 @@ MZAPI是一个基于Python的SDK，旨在帮助开发者快速构建和接入米
 本库已经发布到了pypi可直接安装XMZAPI，安装过程中会自动安装本库所需要的依赖：
 
 ```bash
-pip install XMZAPI
+pip install MZAP
 ```
 
 ## 使用方法
