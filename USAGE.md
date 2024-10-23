@@ -16,11 +16,11 @@ pip install MZAPI
 
 - **文件翻译**：支持多种文件格式的翻译。
 - **语言检测**：自动识别文本的语言。
+- ** 本SDK支持的其他功能请查看 [SDK文档](./docx/index.md) 。
 
 详细的功能说明和代码示例，请查看以下文档：
 
-- [文件翻译](./docx/translation.md)
-- [语言检测](./docx/language_detection.md)
+
 
 ## 版本更新
 
