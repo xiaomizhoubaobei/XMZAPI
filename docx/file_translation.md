@@ -80,6 +80,10 @@ mt_service = MTService()
 - **file_type** (str): 文档的类型。示例中使用的是`"docx"`，表示Word文档。
 - **lang_from** (str): 源文档的语言。示例中使用的是`"zh"`，表示中文。
 - **lang_to** (str): 目标翻译的语言。示例中使用的是`"en"`，表示英文。
+<<<<<<< HEAD
+=======
+
+>>>>>>> 19efdc2770d086b04c36f93c5c1e7113a114b4ee
 
 ```python
 from MZAPI.HWNLP import MTService

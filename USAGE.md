@@ -16,7 +16,7 @@ pip install MZAPI
 
 - **文件翻译**：支持多种文件格式的翻译。
 - **语言检测**：自动识别文本的语言。
-- ** 本SDK支持的其他功能请查看 [SDK文档](./docx/index.md) 。
+- 本SDK支持的其他功能请查看 [SDK文档](./docx/index.md) 。
 
 详细的功能说明和代码示例，请查看以下文档：
 
@@ -49,4 +49,9 @@ pip install MZAPI
 - **开发者邮件**：[mzapi@x.mizhoubaobei.top](mailto:mzapi@x.mizhoubaobei.top)
 - **项目网址**：[https://github.com/xiaomizhoubaobei/XMZAPI](https://github.com/xiaomizhoubaobei/XMZAPI)
 
+<<<<<<< HEAD
 我们希望这些信息能帮助你快速上手 `MZAPI`。感谢你的使用和支持！
+=======
+我们希望这些信息能帮助你快速上手 `MZAPI`。感谢你的使用和支持！
+```
+>>>>>>> 19efdc2770d086b04c36f93c5c1e7113a114b4ee
