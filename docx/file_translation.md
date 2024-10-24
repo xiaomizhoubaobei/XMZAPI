@@ -26,12 +26,10 @@
 ```python
 from XMZAPI.HWNLP import MTService
 
-
 def translate_document():
     mt_service = MTService()
     result = mt_service.file_translation("https://example.com/document.docx", "docx", "zh", "en")
     print(result)
-
 
 if __name__ == "__main__":
     translate_document()

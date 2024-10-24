@@ -1,4 +1,4 @@
-# 米粥API (MZAPI)
+# 米粥API (XMZAPI)
 [![PyPI version](https://badge.fury.io/py/XMZAPI.svg)](https://pypi.org/project/XMZAPI/)
 
 ## 简介
@@ -16,16 +16,16 @@ XMZAPI是一个基于Python的SDK，旨在帮助开发者快速构建和接入�
 本库已经发布到了pypi可直接安装XMZAPI，安装过程中会自动安装本库所需要的依赖：
 
 ```bash
-pip install MZAP
+pip install XMZAPI
 ```
 
 ## 使用方法
 
-详细的使用方法请查看 [MZAPI 使用方法](USAGE.md)。
+详细的使用方法请查看 [XMZAPI 使用方法](USAGE.md)。
 
 ## 联系作者
 
-如果你在使用MZAPI时遇到任何问题，或者有任何建议和反馈，欢迎通过以下方式联系作者：
+如果你在使用XMZAPI时遇到任何问题，或者有任何建议和反馈，欢迎通过以下方式联系作者：
 
 - **姓名**：祁筱欣
 - **开发者邮件**：[mzapi@x.mizhoubaobei.top](mailto:mzapi@x.mizhoubaobei.top)
