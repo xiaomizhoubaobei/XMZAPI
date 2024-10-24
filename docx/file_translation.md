@@ -24,12 +24,14 @@
 虽然听起来有点技术，但别担心，我会一步步指导你。以下是一段示例代码，它告诉翻译工具我们需要翻译的文档信息：
 
 ```python
-from MZAPI.HWNLP import MTService
+from XMZAPI.HWNLP import MTService
+
 
 def translate_document():
     mt_service = MTService()
     result = mt_service.file_translation("https://example.com/document.docx", "docx", "zh", "en")
     print(result)
+
 
 if __name__ == "__main__":
     translate_document()
