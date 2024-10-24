@@ -3,11 +3,11 @@
 
 ## 简介
 
-MZAPI是一个基于Python的SDK，旨在帮助开发者快速构建和接入米粥API服务。通过这个SDK，用户可以轻松地完成各种API调用。
+XMZAPI是一个基于Python的SDK，旨在帮助开发者快速构建和接入米粥API服务。通过这个SDK，用户可以轻松地完成各种API调用。
 
 ## 安装依赖
 
-为了使用MZAPI，你需要安装以下依赖：
+为了使用XMZAPI，你需要安装以下依赖：
 
 - `huaweicloudsdkcore`：华为云SDK核心模块。
 - `huaweicloudsdknlp`：华为云自然语言处理SDK。
