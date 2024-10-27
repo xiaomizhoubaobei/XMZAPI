@@ -20,7 +20,7 @@
 我们将通过一段简单的代码来获取翻译结果。这段代码会调用翻译服务的API，获取你的文档翻译结果。
 
 ```python
-from XMZAPI.HWNLP import MTService
+from XMZAPI.HWNLP import MTService //
 
 def get_translation_result(job_id):
     mt_service = MTService()
@@ -33,9 +33,15 @@ if __name__ == "__main__":
 ```
 
 这段代码做了什么？
-- 首先，它创建了一个`MTService`实例，这是与翻译服务交互的接口。
-- 然后，它调用`get_file_translation_result`方法，并传入你的“job_id”。
-- 最后，它打印出翻译结果。
+- 首先，它从`XMZAPI.HWNLP`模块中导入`MTService`类。  
+- 然后，它定义了一个名为`get_translation_result`的函数，该函数接受一个参数“job_id”。  
+在`get_translation_result`函数中，它做了以下事情：  
+    1.它创建了一个`MTService`实例，这是与翻译服务交互的接口。  
+    2.它调用`get_file_translation_result`方法，并传入你的“job_id”。  
+    3.它打印出翻译结果。   
+- 最后，在`if __name__ == "__main__":`中，它调用`get_translation_result`函数，并传入你的“job_id”。
+
+
 
 ## 🎯 理解翻译结果
 
