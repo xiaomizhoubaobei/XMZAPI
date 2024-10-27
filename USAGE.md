@@ -7,7 +7,7 @@
 在开始之前，请确保你已经安装了Python环境。然后，通过以下命令安装 `XMZAPI`：
 
 ```bash
-pip install MZAPI
+pip install XMZAPI
 ```
 
 ## 主要功能
