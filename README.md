@@ -7,11 +7,7 @@ XMZAPI是一个基于Python的SDK，旨在帮助开发者快速构建和接入�
 
 ## 安装依赖
 
-为了使用XMZAPI，你需要安装以下依赖：
-
-- `huaweicloudsdkcore`：华为云SDK核心模块。
-- `huaweicloudsdknlp`：华为云自然语言处理SDK。
-- `ryptography`：用于加密和解密数据的Python库。
+本项目依赖可以前往[依赖](dependencies.md)查看
 
 本库已经发布到了pypi可直接安装XMZAPI，安装过程中会自动安装本库所需要的依赖：
 
