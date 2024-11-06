@@ -11,3 +11,4 @@
 | 5  | `json`                        | Python 标准库，用于处理 JSON 数据的编码和解码。                                                     | 无需安装，Python 内置                            |
 | 6  | `datetime`                    | Python 标准库，用于处理日期和时间。                                                              | 无需安装，Python 内置                            |
 | 7  | `hashlib`                     | Python 标准库，用于处理哈希值。                                                                | 无需安装，Python 内置                            |
+| 8  | `openai`                      | 提供与 OpenAI API 的接口，用于访问OpenAI的API或者兼容openaiAPI的各种人工智能服务。                           | `pip install openai`                      |
