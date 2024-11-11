@@ -55,7 +55,7 @@ __init__(self)
 get_response(self, Content: str) -> str
 ```
 
-此方法发送一个 POST 请求到 ERNIE Bot 服务，并返回响应。
+此方法将携带一个请求体发送一个 POST 请求到 ERNIE Bot 服务，并返回响应。
 
 **参数**：
 
