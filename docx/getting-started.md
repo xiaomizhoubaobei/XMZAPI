@@ -19,7 +19,7 @@ pip install opentelemetry-api opentelemetry-sdk opentelemetry-exporter-otlp requ
 ### 1. 导入 SDK
 
 ```python
-from XMZAPI.wenxin.ERNIEBot1 import ERNIE_Bot_4_0_8k
+from XMZAPI.ERNIEBot1 import ERNIE_Bot_4_0_8k
 import json
 ```
 
@@ -68,7 +68,7 @@ get_response(self, Content: str) -> str
 # 示例
 ```python
 import json
-from XMZAPI.wenxin.ERNIEBot1 import ERNIE_Bot_4_0_8k
+from XMZAPI.ERNIEBot1 import ERNIE_Bot_4_0_8k
 
 m = ERNIE_Bot_4_0_8k()
 response = m.get_response("你是谁")
@@ -107,7 +107,3 @@ print(response)
 ## 贡献
 
 欢迎对 ERNIE Bot SDK 进行贡献。请确保在提交之前阅读我们的 [贡献指南](../CONTRIBUTING.md)。
-
-## 许可证
-
-ERNIE Bot SDK 遵循 [Apache 2.0 许可证](https://www.apache.org/licenses/LICENSE-2.0)。
