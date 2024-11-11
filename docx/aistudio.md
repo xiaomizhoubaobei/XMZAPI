@@ -2,7 +2,7 @@
 
 ## 概述
 
-`aistudio`类是`XMZAPI.wenxin`模块中的一个组件，它封装了与百度AI Studio星河大模型API服务的交互功能。该类允许用户通过指定的模型进行文本聊天，获取智能回复。
+`aistudio`类是`XMZAPI.aistudio`模块中的一个组件，它封装了与百度AI Studio星河大模型API服务的交互功能。该类允许用户通过指定的模型进行文本聊天，获取智能回复。
 
 ## 功能特性
 
@@ -28,10 +28,10 @@ pip install openai opentelemetry-api opentelemetry-sdk
 以下是如何使用`aistudio`类和其`chat`方法的详细步骤：
 
 1. **导入类**：
-   首先，您需要从`XMZAPI.wenxin`模块中导入`aistudio`类。
+   首先，您需要从`XMZAPI.aistudio`模块中导入`aistudio`类。
 
    ```python
-   from XMZAPI.wenxin.aistudio import aistudio
+   from XMZAPI.aistudio import aistudio
    ```
 
 2. **创建实例**：
@@ -58,7 +58,7 @@ pip install openai opentelemetry-api opentelemetry-sdk
 5. **完整的代码示例**：
 
 ```python
-from XMZAPI.wenxin.aistudio import aistudio
+from XMZAPI.aistudio import aistudio
 
 def x():
     W = aistudio()
@@ -117,13 +117,8 @@ AI Studio 凭借其强大的功能和便捷的使用体验，已经成为众多�
 
 我们欢迎任何形式的贡献和反馈。如果您有任何改进建议或遇到问题，请通过以下方式联系我们：
 
-- 提交Issue或Pull Request至[XMZAPI GitHub仓库](https://github.com/your-repo/XMZAPI)。
-- 发送邮件至[support@example.com](mailto:support@example.com)。
-
-## 许可证
-
-`aistudio`类遵循[MIT许可证](https://opensource.org/licenses/MIT)。您可以自由地使用、复制、修改和分发该软件，只要遵循许可证中的条款。
-
+- 提交Issue或Pull Request至[XMZAPI GitHub仓库](https://github.com/xiaomizhoubaobei/XMZAPI)。
+- 发送邮件至[mzapi@x.mizhoubaobei.top](mailto:mzapi@x.mizhoubaobei.top)。
 ---
 
 以上是`aistudio`类的详细说明文档，希望对您有所帮助。如果您有任何疑问或需要进一步的帮助，请随时联系我们。
