@@ -12,15 +12,13 @@
 
 ## 安装依赖
 
-在开始使用之前，请确保您的环境中已安装以下Python包：
-
 - `openai`：用于与AI Studio API进行交互。
 - `opentelemetry-api`和`opentelemetry-sdk`：用于分布式追踪。
 
 安装命令如下：
 
 ```bash
-pip install openai opentelemetry-api opentelemetry-sdk
+pip install XMZAPI
 ```
 
 ## 使用方法

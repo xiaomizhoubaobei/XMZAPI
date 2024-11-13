@@ -9,7 +9,7 @@ ERNIE Bot SDK 是一个 Python 软件开发工具包，用于与 ERNIE Bot 服�
 在开始使用 SDK 之前，请确保你已经安装了以下依赖：
 
 ```bash
-pip install opentelemetry-api opentelemetry-sdk opentelemetry-exporter-otlp requests
+pip install XMZAPI
 ```
 
 ## 快速开始
