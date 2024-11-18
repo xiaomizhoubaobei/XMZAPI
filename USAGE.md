@@ -14,8 +14,8 @@ pip install XMZAPI
 
 `XMZAPI` 提供了以下核心功能：
 
-- **文件翻译**：支持多种文件格式的翻译。
-- **语言检测**：自动识别文本的语言。
+- **ERNIE Bot**：！这是一个为与 ERNIE Bot 服务进行交互而设计的 Python 软件开发工具包。
+- **AI Studio**：是一个为AI Studio实训AI开发平台设计的Python模块。
 - 本SDK支持的其他功能请查看 [SDK文档](./docx/index.md) 。
 
 详细的功能说明和代码示例，请查看以下文档：
